@@ -22,11 +22,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void subtrair(View view) {
         contador--;
-        txtNumero.setText(String.valueOf(contador));
+        contador = Integer.parseInt(txtNumero.getText().toString());
     }
 
     public void somar(View view) {
         contador++;
-        txtNumero.setText(String.valueOf(contador));
+        contador = Integer.parseInt(txtNumero.getText().toString());
     }
 }
